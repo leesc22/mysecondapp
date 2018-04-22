@@ -31,6 +31,7 @@
         android:layout_marginTop="8dp"
         android:background="@color/buttonBackground"
         android:text="Toast"
+        android:onClick="toastMe"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
