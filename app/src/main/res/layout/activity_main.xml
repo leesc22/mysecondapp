@@ -46,6 +46,7 @@
         android:layout_marginTop="8dp"
         android:background="@color/buttonBackground"
         android:text="Count"
+        android:onClick="countMe"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@+id/toast_button"
         app:layout_constraintRight_toLeftOf="@+id/random_button"
